@@ -131,8 +131,7 @@ client.on('guildMemberRemove', (member) => {
         if (member._roles.includes(config.verif.roleVerif)){
             return
         }else{
-            const configUser  = JSON.parse(fs.readFileSync("./" +
-                "/"+member.user.id+".json", 'utf8'))
+            const configUser  = JSON.parse(fs.readFileSync("./account/"+member.user.id+".json", 'utf8'))
 
             function one() {
                 client.guilds.cache.get(config.guild).channels.cache.get(configUser.channel).delete()
