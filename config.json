@@ -1,0 +1,11 @@
+{
+  	"name" : "NAME DU BOT OU SERVEUR",
+    "idBot" : "TOKEN",
+    "guild" : "ID SERVEUR",
+    "prefix" : ".",
+
+    "verif" : {
+        "idCategorie": "ID CATEGORIE VERIF",
+        "roleVerif": "ID ROLE A DONNER"
+    }
+}
